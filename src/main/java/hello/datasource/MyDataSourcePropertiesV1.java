@@ -18,7 +18,7 @@ public class MyDataSourcePropertiesV1 {
 
     @Data
     public static class Etc {
-        private int maxConnections;
+        private int maxConnection;
         private Duration timeout;
         private List<String> options = new ArrayList<>();
     }
